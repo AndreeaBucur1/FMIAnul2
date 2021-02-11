@@ -1,0 +1,39 @@
+Proiect SGBD
+
+6. Definiți un subprogram stocat care să utilizeze un tip de colecție studiat. Apelați subprogramul.
+
+	--Subprogramul numara cati elevi fac meditatii la cel putin 2 materii intr-un oras dat ca parametru. Tratati
+        cazul in care orasul dat ca parametru nu exista, respectiv cazul in care in orasul dat nu invata niciun elev. Inserati in tabelul
+        info_ANB informatiile corespunzatoare fiecarui caz determinat de valoarea data pentru parametru.
+
+
+7. Definiți un subprogram stocat care să utilizeze un tip de cursor studiat. Apelați subprogramul.
+
+ 	--Subprogramul obtine toate sedintele care se tin intr-o zi data ca parametru. Se vor trata cazurile in care ziua nu este corect scrisa 
+        sau nu exista sedinte in ziua respectiva.
+
+
+8. Definiți un subprogram stocat de tip funcție care să utilizeze 3 dintre tabelele definite. Tratați toate excepțiile care pot apărea. Apelați subprogramul astfel încât să evidențiați toate cazurile tratate.
+
+	--Subprogramul insereaza in tabelul info2 toti elevii care fac meditatii cu profesorul cu id-ul dat ca parametru. Se trateaza urmatoarele cazuri:nu exista profesorul cu id-ul respectiv;
+	niciun elev nu face pregatire cu profesorul cu id-ul respectiv. 
+
+
+9.  Definiți un subprogram stocat de tip procedură care să utilizeze 5 dintre tabelele definite. Tratați toate excepțiile care pot apărea. Apelați subprogramul astfel încât să evidențiați toate cazurile tratate.
+
+	--Subprogramul primeste 2 parametri (id,day) si afiseaza toate sedintele care au loc in ziua day in centrul al carui manager are id-ul id.
+
+
+10. Definiți un trigger de tip LMD la nivel de comandă. Declanșați trigger-ul.
+
+	--Declansatorul permite modificarile in tabela meetings doar în intervalul de ore 8:00 - 20:00, de luni până vineri.
+
+
+11. Definiți un trigger de tip LMD la nivel de linie. Declanșați trigger-ul.
+
+	--Declansatorul nu permite adaugarea sedintelor in intervalul orar 18:00-08:00.
+
+
+12. Definiți un trigger de tip LDD. Declanșați trigger-ul.
+
+	--Doar utilizatorii cu numele 'Manager' pot modifica, sterge sau adauga tabele
